@@ -33,7 +33,7 @@ class ExerciseMathTest {
 	@Test
 	void testFactorial3() {
 		int actualAnswer = ExerciseMath.factorial(1);
-		assertEquals(1, actualAnswer, "TC3:値が一致しません");
+		assertEquals(2, actualAnswer, "TC3:値が一致しません");
 	}
 	
 	@Test
