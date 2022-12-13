@@ -12,6 +12,12 @@ repositories {
 	mavenCentral()
 }
 
+apply plugin: 'war'
+
+war {
+    archiveName 'github-actions-sample.war'
+}
+
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
